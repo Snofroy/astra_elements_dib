@@ -4,6 +4,7 @@
 
 ```
 pip3 -m venv DIB
+source DIB/bin/activate
 pip3 install --upgrade pip
 pip3 install diskimage-builder
 ```
