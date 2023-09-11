@@ -1,13 +1,5 @@
 # astra_elements_dib
 
-## Создать репозиторий Astra Linux
-
-```
-sudo mkdir -p /srv/repo/alce
-sudo apt install rsync -y
-sudo rsync --delete -aqLz dl.astralinux.ru::astra/astra/stable/2.12_x86-64/repository/ /srv/repo/alce
-```
-
 ## Установка DIB
 
 ```
