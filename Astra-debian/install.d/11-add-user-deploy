@@ -26,4 +26,4 @@ useradd -d /home/deploy -s /bin/bash deploy
 echo "deploy:astra2023" | chpasswd
 mkdir -p /home/deploy/
 chown -R deploy:deploy /home/deploy/
-echo "deploy ALL=(ALL:ALL) ALL" /etc/sudoers
+echo "deploy ALL=(ALL:ALL) ALL" >> /etc/sudoers
