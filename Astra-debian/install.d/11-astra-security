@@ -1,0 +1,14 @@
+#!/bin/bash
+#
+# Configuration Smolensk AstraLinux by A. Mizev
+#
+
+if [ ${DIB_DEBUG_TRACE:-1} -gt 0 ]; then
+    set -x
+fi
+set -eu
+set -o pipefail
+
+astra-modeswitch set 2
+astra-mic-control enable # не работает...
+astra-mac-control enable
